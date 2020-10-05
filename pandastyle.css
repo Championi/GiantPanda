@@ -5,13 +5,15 @@ body {
 }
 
 h1 {
-    size: 60px;
+    font-size: 60px;
     font-family: Georgia;
+    
     
 }
 
 h1, h2 {
-    text-shadow: 1px 1px 10px green;
+    text-shadow: 1px 1px 10px rgb(3, 214, 3);
+    color: rgb(26, 128, 0);
 }
 
 img {
