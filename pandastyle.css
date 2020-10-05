@@ -12,5 +12,6 @@ img {
 .column {
     width: 600px;
     margin: 40px auto;
+    border: 15px dotted wheat;
 }
 
