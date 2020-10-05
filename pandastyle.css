@@ -17,5 +17,8 @@ img {
 .column {
     width: 600px;
     margin: 40px auto;
+    background-color: white;
+    padding: 10px;
+    border: solid lightgrey 1px;
 }
 
