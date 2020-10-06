@@ -4,12 +4,7 @@ body {
     line-height: 25px;
 }
 
-h1 {
-    font-size: 60px;
-    font-family: Georgia;
-    
-    
-}
+
 
 ul{
     color:greenyellow;
@@ -23,6 +18,8 @@ li{
     text-shadow: 8px 5px 20px green;
     
 }
+
+
 
 h1, h2 {
     padding: 5px;
@@ -44,10 +41,15 @@ img {
 }
 
 .group5{
+
     background-color: grey;
     border-top: solid rgb(117, 151, 23) 5px;
     border-bottom: solid rgb(117, 151, 23) 5px;
     padding: 40px;
+    
+}
+h1.group5{
+    color:white;
 }
 
 .column {
