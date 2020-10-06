@@ -2,6 +2,9 @@ body {
     background-color: whitesmoke;
     font-family: Arial;
     line-height: 25px;
+    background: url(https://freefrontend.com/assets/img/css-snippets-demo/002.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin:0px;
 }
 
 h2 {
@@ -26,6 +29,7 @@ p {
     width: 600px;
 }
 
+.group5{
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +37,12 @@ p {
     text-decoration: none;
 }
 
+    background-color: rgb(71, 9, 9);
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+    padding: 40px;
+    
+    
 .header{
     position: fixed;
     margin: 0px auto;
@@ -51,6 +61,10 @@ p {
 
 
 }
+h1.group5h1{
+    color:white;
+    text-shadow: 1px 1px 10px rgb(31, 39, 25);
+    text-transform: lowercase;
 
 .logo_container {
     height: 100%;
@@ -69,15 +83,26 @@ p {
     font-weight: 200;
 }
 
+h1.group5h1:hover{
+    color:black;
+    text-shadow: 1px 1px 10px rgb(93, 184, 24);
+    text-transform: uppercase;
 .logo_container h1 span{
     font-weight: 800;
 
 }
 
+img.hmlogo{
+    width:200px;
+    height:200px;
+    float:right;
+    border:0px;
 .navigation{
     float: right;
     height: 100%;
 }
+img.hmlogo:hover{
+    background-color: black;
 
 .navigation a{
     height: 100%;
@@ -107,6 +132,46 @@ p {
     width: 100%;
 
 }
+   
+   
+  ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+   
+  li {
+    height: 45px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+  }
+   
+  li:last-child {
+    border-right: none;
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #666;
+  }
+   
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
 
 .under_header_text{
     width: 100%;
