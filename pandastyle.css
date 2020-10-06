@@ -24,10 +24,8 @@ img {
 }
 
 .column {
-    width: 601px;
     margin: 40px auto;
     width: 600px;
-    margin: 41px auto;
     border: 15px dotted wheat;
     padding: 15px;
 }
