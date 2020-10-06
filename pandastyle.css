@@ -11,6 +11,19 @@ h1 {
     
 }
 
+ul{
+    color:greenyellow;
+}
+
+li{
+    
+    border:dashed 2px darkviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: deeppink;
+    text-shadow: 8px 5px 20px green;
+    
+}
+
 h1, h2 {
     padding: 5px;
     text-shadow: 1px 1px 10px rgb(98, 214, 3);
