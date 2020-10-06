@@ -2,22 +2,16 @@ body {
     background-color: whitesmoke;
     font-family: Arial;
     line-height: 25px;
+    background: url(https://freefrontend.com/assets/img/css-snippets-demo/002.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin:0px;
 }
 
 
 
-ul{
-    color:greenyellow;
-}
 
-li{
-    
-    border:dashed 2px darkviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: deeppink;
-    text-shadow: 8px 5px 20px green;
-    
-}
+
+
 
 
 
@@ -40,17 +34,7 @@ img {
     border: 1px solid gray;
 }
 
-.group5{
 
-    background-color: grey;
-    border-top: solid rgb(117, 151, 23) 5px;
-    border-bottom: solid rgb(117, 151, 23) 5px;
-    padding: 40px;
-    
-}
-h1.group5{
-    color:white;
-}
 
 .column {
     width: 600px;
@@ -62,3 +46,76 @@ h1.group5{
     width: 600px;
 }
 
+.group5{
+
+    background-color: rgb(71, 9, 9);
+    border-top: solid white 5px;
+    border-bottom: solid white 5px;
+    padding: 40px;
+    
+    
+}
+h1.group5h1{
+    color:white;
+    text-shadow: 1px 1px 10px rgb(31, 39, 25);
+    text-transform: lowercase;
+}
+
+h1.group5h1:hover{
+    color:black;
+    text-shadow: 1px 1px 10px rgb(93, 184, 24);
+    text-transform: uppercase;
+}
+
+img.hmlogo{
+    width:200px;
+    height:200px;
+    float:right;
+    border:0px;
+}
+img.hmlogo:hover{
+    background-color: black;
+}
+   
+   
+  ul {
+    overflow: auto;
+    list-style-type: none;
+  }
+   
+  li {
+    height: 45px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+  }
+   
+  li:last-child {
+    border-right: none;
+  }
+   
+  li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+   
+  li a:hover {
+    color: #666;
+  }
+   
+  li.active a {
+    font-weight: bold;
+    color: #333;
+  }
+
+  
+ 
