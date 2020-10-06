@@ -19,6 +19,16 @@ p {
 
 }
 
+img {
+    border-radius: 8px;
+    width: 40%;
+    height: 40%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .column {
     width: 600px;
     margin: 40px auto;
@@ -30,17 +40,11 @@ p {
 }
 
 .group5{
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
     background-color: rgb(71, 9, 9);
     border-top: solid white 5px;
     border-bottom: solid white 5px;
     padding: 40px;
+}
     
     
 .header{
@@ -65,6 +69,7 @@ h1.group5h1{
     color:white;
     text-shadow: 1px 1px 10px rgb(31, 39, 25);
     text-transform: lowercase;
+}
 
 .logo_container {
     height: 100%;
@@ -87,6 +92,8 @@ h1.group5h1:hover{
     color:black;
     text-shadow: 1px 1px 10px rgb(93, 184, 24);
     text-transform: uppercase;
+}
+
 .logo_container h1 span{
     font-weight: 800;
 
@@ -97,12 +104,14 @@ img.hmlogo{
     height:200px;
     float:right;
     border:0px;
+}
 .navigation{
     float: right;
     height: 100%;
 }
 img.hmlogo:hover{
     background-color: black;
+}
 
 .navigation a{
     height: 100%;
@@ -124,14 +133,7 @@ img.hmlogo:hover{
     font-size: 16px;
 }
 
-.under_header {
-    width: 100%;
-}
 
-.under_header img{
-    width: 100%;
-
-}
    
    
   ul {
@@ -173,14 +175,23 @@ img.hmlogo:hover{
     color: #333;
   }
 
+  .under_header {
+    width: 100%;
+}
+
+.under_header img{
+    width: 100%;
+
+}
+
 .under_header_text{
     width: 100%;
-    position: relative;
+    margin-top: -140px;
 }
 
 .under_header_text h1{
     text-align: center;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 80px;
 }
 
