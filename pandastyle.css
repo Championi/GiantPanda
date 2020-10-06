@@ -4,6 +4,10 @@ body {
     line-height: 25px;
 }
 
+li{
+    border: 2px dotted darkviolet
+}
+
 h1 {
     size: 60px;
     font-family: Georgia;
