@@ -27,6 +27,7 @@ img {
     margin: 40px auto;
     background-color: white;
     padding: 10px;
-    border: solid lightgrey 1px;
+    border-right: solid rgb(117, 151, 23) 5px;
+    border-left: solid rgb(117, 151, 23) 5px;
 }
 
